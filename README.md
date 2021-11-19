@@ -26,7 +26,7 @@ The issue that we are encountering is that even if we are to run the `upload-pro
 node_modules/@sentry/cli/bin/sentry-cli --auth-token replace_with_actual_auth_token upload-proguard --log-level=debug --require-one --org replace_with_actual_org --project replace_with_actual_project --write-properties path/to/actual/proguard/file
 ```
 
-> Please note actual values have been edited out aboe, as this is a public repo.
+> ⚠️ Please note actual values have been edited out above, as this is a public repo.
 
 Encountering this issue is preventing us from uploading any Android Proguard mappings at all, as using the Sentry Gradle plugin is not an option for us due to the way our project is configured.
 
@@ -44,3 +44,11 @@ This example repo also reproduces the issue. Just run:
 ```
 node_modules/@sentry/cli/bin/sentry-cli upload-proguard
 ```
+
+## Example video
+
+https://user-images.githubusercontent.com/4116395/142662413-42069611-4ac2-4520-8568-e97e6ef23543.mov
+
+
+
+
